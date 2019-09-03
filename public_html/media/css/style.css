@@ -1,0 +1,210 @@
+
+/* =============== HEADER =============== */
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .link-wrapper {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav .link-wrapper.active {
+    border: 2px solid #21006d;
+    padding: 2px;
+    font-weight: bold;    
+}
+
+.picture{
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* =============== MAIN =============== */
+main, header{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.wrapper {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.min_picture{
+    width: 25%;
+    text-align: center;
+    border: 1px solid gray;
+}
+.container .min_picture div{
+    height: 40%;
+    background-size: 250px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.container .min_picture .img_one{
+    background-image: url(../images/minione.jpg);
+}
+
+.container .min_picture .img_two{
+    background-image: url(../images/minitwo.jpg);
+}
+
+.container .min_picture .img_three{
+    background-image: url(../images/minithree.jpg);
+}
+
+.container .min_picture p:nth-child(even) {
+    padding: 10px;
+}
+
+.container .min_picture p:nth-child(odd) {
+    font-size: 11px;
+}
+
+.container .min_picture p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.block {
+    /* border-bottom: 6px dotted #efefef; */
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+/* MAP */
+
+.map{
+    height: 300px;
+}
+
+/* =============== TABLE =============== */
+
+table {
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+}
+
+table .delete, table .edit {
+    cursor: pointer;
+}
+
+
+/* =============== MODAL =============== */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    /* background-color: rgb(0,0,0);  */
+    /* background-color: rgba(0,0,0,0.9); */
+}
+
+.modal .wrapper {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* =============== FORM =============== */
+
+form .field-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+form .field-error, form .error {   
+    color: red;
+}
+
+form .message-wrapper {
+    margin-bottom: 2em;    
+}
+
+form button {
+      transition: all 0.5s ease;
+}
+
+form.success button {
+    font-size: 0;
+    background: #21006d;
+}
+
+form.success button:after {
+    font-size: 20px;
+    content: '✔';
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+    height: 70px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 400px){
+    main, header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
