@@ -1,1 +1,0 @@
-{"users":[{"id":null,"name":"Karolis","surname":"Liesys","email":"karolisliesys@gmail.com","password":"asd","phone":"","address":""}],"participants":[{"id":null,"name":"Duff","comment":"test"},{"id":null,"name":"bananas","comment":"wsadasd"},{"id":null,"name":"bananas","comment":"wsadasd"},{"id":null,"name":"Karolis","comment":"test"}]}
