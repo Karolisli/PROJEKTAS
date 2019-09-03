@@ -29,22 +29,22 @@ $footer = new \App\Views\Footer();
                 <div class="min_picture">
                     <div class="img_one">
                     </div>
-                    <p class="service_name">Paslauga</p>
-                    <p>Paslaugos aprasymas</p>
+                    <p class="service_name">Asmeninis treneris</p>
+                    <p>Individualių treniruočių programų sudarymas pagal Jūsų poreikius.</p>
                 </div>
 
                 <div class="min_picture">
                     <div class="img_two">
                     </div>
-                    <p class="service_name">Paslauga</p>
-                    <p>Paslaugos aprasymas</p>
+                    <p class="service_name">Dėmesinga prieiūra</p>
+                    <p>Padėsime efektyviai sportuoti ir pasiekti norimų rezultatų.</p>
                 </div>
 
                 <div class="min_picture">
                     <div class="img_three">
                     </div>
-                    <p class="service_name">Paslauga</p>
-                    <p>Paslaugos aprasymas</p>
+                    <p class="service_name">Grupinės treniruotės</p>
+                    <p>Siūlome sportuoti jaukioje ir modernioje sporto klubo salėje</p>
                 </div>
             </section>
         </main>   
